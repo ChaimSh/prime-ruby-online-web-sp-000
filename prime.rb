@@ -1,4 +1,4 @@
-=begin
+
 def prime?(interger)
   beg = 2
   if interger > 1
@@ -10,12 +10,4 @@ def prime?(interger)
     false
   end
 end
-=end
 
-def prime?(number)
-  if number % 1 == number && number % number == 1
-    true
-  else
-    false
-  end
-end
