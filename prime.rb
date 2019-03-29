@@ -12,7 +12,7 @@ def prime?(interger)
 end
 =end
 
-def prime(number)
+def prime?(number)
   if number % 1 == number && number % number == 1
     true
   else
